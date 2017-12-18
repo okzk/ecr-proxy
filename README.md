@@ -7,5 +7,5 @@ Simple Amazon ECR anonymous proxy.
 Configure your IAM role appropriately, and run...
 
 ```
-docker run -d okzk/ecr-proxy
+docker run -d -p5000:5000 okzk/ecr-proxy
 ```
